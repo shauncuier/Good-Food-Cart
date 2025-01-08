@@ -143,7 +143,6 @@ header nav ul li a:hover {
 .card {
     text-align: center;
     padding: 167px 300px 184px 300px
-    
 }
 
 .card-subheading {
@@ -194,50 +193,124 @@ header nav ul li a:hover {
     background: url(<path-to-image>) lightgray -13px -23.519px / 125% 117.778% no-repeat;
 }
 
-.card-item-subheading{
+.card-item-subheading {
     color: #101010;
-text-align: center;
-font-family: "Work Sans";
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-border-radius: 8px;
-background: rgba(82, 195, 3, 0.15);
-padding: 14px 32px;
-width: 202px;
-margin: 0 auto;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px;
+    width: 202px;
+    margin: 0 auto;
 }
 
 
-.card-column h1{
+.card-column h1 {
     color: #101010;
-text-align: center;
-font-family: "Work Sans";
-font-size: 40px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin: 24px 0;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 24px 0;
 }
 
-.card-item-description{
+.card-item-description {
     color: #101010;
-text-align: center;
-font-family: "Work Sans";
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 28px; /* 155.556% */
-opacity: 0.7;
-align-self: stretch;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+    opacity: 0.7;
+    align-self: stretch;
 }
 
 
 
-.card-btn{
+.card-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 64px;
+}
+
+.about {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.about .img {
+    width: 50%;
+}
+
+.about-us {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us h1 {
+    color: #101010;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 133.333% */
+    padding-bottom: 24px;
+}
+
+.about-us p {
+    color: #101010;
+    font-family: "Work Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+    padding-bottom: 48px;
+}
+
+.about-us h3 {
+    color: #101010;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.7;
+    padding: 30px 10px;
+
+}
+hr {
+    width: 100%;
+    border: 1px solid rgba(16, 16, 16, 0.20);
+    ;
+    margin: 0 auto;
+}
+.icon {
+    margin-top: 32px;
+}
+.icon a {
+    margin: 16px;
+}
+
+.icon img {
+    width: 39.984px;
+    height: 40px;
 }
