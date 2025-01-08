@@ -142,7 +142,8 @@ header nav ul li a:hover {
 
 .card {
     text-align: center;
-    padding: 167px 300px 184px 300px
+    padding: 167px 300px 184px 300px;
+    background: #f5f1f1;
 }
 
 .card-subheading {
